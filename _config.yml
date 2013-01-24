@@ -40,8 +40,8 @@ facebook:    *u_facebook
 twitter:     *u_twitter
 gplus:       *u_gplus
 github:
-  acct:      hornsby
-  repo:      hornsby.github.com
+  acct:      kaleb
+  repo:      monthly-budget-spreadsheet
 disqus: 
   shortname: kzh
 
