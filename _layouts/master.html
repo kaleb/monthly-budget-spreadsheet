@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>     <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]>        <html lang="en" class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]>        <html lang="en" class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en" class="no-js"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>{%if page.url != '/index.html'%}
+{{ page.title }} | {{ site.title }}{%else%}
+{{ site.title }} | {{ site.subtitle }}{% endif %}</title>
+<meta name="viewport" content="width=device-width">
+{%comment%}<meta name="viewport" content="width=device-width, initial-scale=1.0">{%endcomment%}
+<meta name="description" content="{{ page.description }}">
+<meta name="author" content="{{ site.author.url }}">
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css" rel="stylesheet">
+<script type="text/javascript" src="javascripts/modernizr.js"></script>
+<script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.0.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+<!--script>window.Modernizr || document.write('<script src="/+/modernizr.js"><\/script>')</script-->
+</head>
+<body>
+<div id="wrap">
+<!--[if lt IE 7]><div class="chromeframe alert">
+<button type="button" class="close" data-dismiss="alert">&times;</button>
+You are using an <strong>outdated</strong> browser.  Please
+<a href="http://browsehappy.com/">upgrade your browser</a> or
+<a href="http://www.google.com/chromeframe/?redirect=true">activate Google
+Chrome Frame</a> to improve your experience.
+</div><![endif]-->
+<header class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse" href="/navigate">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="/">{{ site.title }}</a>
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+          <li class="{%if page.url == '/index.html'%}active{%endif%}"><a href="/">Home</a></li>
+          <li><a href="http://github.com/{{ site.github.acct }}/{{ site.github.repo }}/wiki">Wiki</a></li>
+        </ul>
+        <ul class="nav pull-right">
+          <li>
+            <a rel="me" href="http://facebook.com/{{ site.facebook }}"><span><i class="icon-facebook"> </i><span class="hidden-desktop">Facebook</span></span></a>
+          </li>
+          <li>
+            <a rel="me" href="http://twitter.com/{{ site.twitter }}"><span><i class="icon-twitter"> </i> <span class="hidden-desktop">Twitter</span></span></a>
+          </li>
+          <li>
+            <a rel="me" href="http://plus.google.com/{{ site.gplus }}"><span><i class="icon-google-plus"> </i> <span class="hidden-desktop">Google+</span></span></a>
+          </li>
+          <li>
+            <a rel="me" href="http://github.com/{{ site.github.acct }}/{{ site.github.repo }}"><span><i class="icon-github"> </i> <span class="hidden-desktop">Google+</span></span></a>
+          </li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+</header>
+<div class="container">
+{{content}}
+</div>
+<div id="push"></div>
+</div>
+<footer id="site-footer">
+  <div class="container">
+  <p class="muted">
+    <small>&copy; {{ site.author.name }}, 2012</small>
+  </p>
+  </div>
+</footer>
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js"></script>
+<script src="//ajax.aspnetcdn.com/ajax/knockout/knockout-2.2.1.js"></script>
+<script>
+var _gaq=[['_setAccount','UA-{{ site.ga }}'],['_trackPageview']];
+(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+</body>
+</html>
