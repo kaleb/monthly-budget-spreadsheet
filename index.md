@@ -67,4 +67,5 @@ var album = new PicasaWebAlbum("106258285517412659099", "5828327848470063681");
 // The `.active` class needs to be removed from the template so that not all photos are marked as such.
 $('.carousel-inner .item').removeClass('active');
 ko.applyBindings(album);
+console.log(album);
 </script>
