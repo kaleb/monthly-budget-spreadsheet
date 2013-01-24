@@ -3,22 +3,20 @@
 ---
 <p>
   <a href="https://drive.google.com/previewtemplate?id=0AuVJw958eZnndGZkTk1weFJzREEtdGo0LUdlLWQ3c2c&mode=public#">
-    Copy the Google Drive template
+    Copy the Google Drive template and follow the instructions below,
   </a>
   or download a local copy in either
   <a href="https://docs.google.com/spreadsheet/fm?id=tfdNMpxRsDA-tj4-Ge-d7sg.05579237634458261565.6223637013498307438&fmcmd=420">
-    Microsft Office Excel
-  </a>,
+    Microsft Office Excel</a>,
   <a href="https://docs.google.com/spreadsheet/fm?id=tfdNMpxRsDA-tj4-Ge-d7sg.05579237634458261565.6223637013498307438&fmcmd=13">
-    OpenOffice Calc
-  </a>, or
+    OpenOffice Calc</a>, or
   <a href="https://docs.google.com/spreadsheet/fm?id=tfdNMpxRsDA-tj4-Ge-d7sg.05579237634458261565.6223637013498307438&fmcmd=12&size=0&fzr=true&portrait=true&fitw=true&locale=en_US&gridlines=true&printtitle=true&sheetnames=true&pagenum=CENTER">
     PDF
   </a>
   formats.
 </p>
 <div class="row-fluid">
-<div id="myCarousel" class="carousel slide">
+<div id="myCarousel" class="carousel slide" style="max-width:800px">
   <div class="carousel-inner" data-bind="foreach: photos">
     <div class="item active">
 	  <!-- An inital image is used even though it will be replaced by the ko binding in case a visitor does not have js enabled -->
