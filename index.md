@@ -3,9 +3,9 @@
 ---
 <p>
   <a href="https://drive.google.com/previewtemplate?id=0AuVJw958eZnndGZkTk1weFJzREEtdGo0LUdlLWQ3c2c&mode=public#">
-    Copy the Google Drive template and follow the instructions below,
+    Copy the Google Drive template
   </a>
-  or download a local copy in either
+  and follow the instructions below, or download a local copy in either
   <a href="https://docs.google.com/spreadsheet/fm?id=tfdNMpxRsDA-tj4-Ge-d7sg.05579237634458261565.6223637013498307438&fmcmd=420">
     Microsft Office Excel</a>,
   <a href="https://docs.google.com/spreadsheet/fm?id=tfdNMpxRsDA-tj4-Ge-d7sg.05579237634458261565.6223637013498307438&fmcmd=13">
