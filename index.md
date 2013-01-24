@@ -35,7 +35,7 @@
   <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
 </div>
 
-<iframe width="620" height="180" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://drive.google.com/embeddedtemplate?id=0AuVJw958eZnndGZkTk1weFJzREEtdGo0LUdlLWQ3c2c"></iframe>
+<iframe width="620" height="180" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://drive.google.com/embeddedtemplate?id=0AuVJw958eZnndGZkTk1weFJzREEtdGo0LUdlLWQ3c2c"> </iframe>
 
 <script>
 // stupid Array::map polyfill
