@@ -17,7 +17,7 @@
   </a>
   formats.
 </p>
-<div id="myCarousel" class="carousel slide" style="width:800px">
+<div id="myCarousel" class="carousel slide">
   <div class="carousel-inner" data-bind="foreach: photos">
     <div class="item active">
 	  <!-- An inital image is used even though it will be replaced by the ko binding in case a visitor does not have js enabled -->
